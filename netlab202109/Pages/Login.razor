@@ -1,0 +1,32 @@
+﻿@page "/login"
+@using netlab202109.Auth
+@inject IAuthService authservice
+@inject NavigationManager navigation
+<h3>login</h3>
+<input type="text" @bind=@userid />
+<input tyep="text" @bind=@pass />
+<button @onclick="Submit" >ログイン</button>
+<p>@ErrorMessage</p>
+
+@code {
+    string userid;
+    string pass;
+    string ErrorMessage;
+
+    public void Submit()
+    {
+        LoginModel login = new LoginModel();
+        login.UserID = userid;
+        login.Password = pass;
+        var result = authservice.Login(login);
+        if (result.IsSuccessful)
+        {
+            navigation.NavigateTo("/");
+        }
+        else
+        {
+            ErrorMessage = "ログインに失敗しました";
+        }
+        
+    }
+}
