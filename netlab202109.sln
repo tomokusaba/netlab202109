@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netlab202109", "netlab202109\netlab202109.csproj", "{CC06A4BB-F160-4568-8A6D-36D28A79DA0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC06A4BB-F160-4568-8A6D-36D28A79DA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC06A4BB-F160-4568-8A6D-36D28A79DA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC06A4BB-F160-4568-8A6D-36D28A79DA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC06A4BB-F160-4568-8A6D-36D28A79DA0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7A4848C-5DB7-420D-B9A9-D9F0CB695B9C}
+	EndGlobalSection
+EndGlobal
